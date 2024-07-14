@@ -5,6 +5,37 @@
     </head>
 
     <body>
+        <h1>Welcome to my system</h1>
+        <h2>please fill the fields below</h2>
+        
+        <form method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required placeholder="Enter username" >
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="username" name="email" required placeholder="Enter your Email">
+            <br>
+
+            <label for="AGE">Age:</label>
+            <input type="number" min="15" max="80" step="1" name="age" id="AGE" placeholder="Age" required>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+            <br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male" required><label>Male</label>
+            <input type="radio" name="gender" value="female" required><label>Female</label>
+            <br><br>
+
+            <input type="submit" value="register">
+
+
+            <br><br><br><br><br>
+        </form>
+
         <a href="index.html">Home page</a><br><br>
         <a href="about.html">Restaurant information</a><br> <br>
         <a href="register.html">Create an account</a><br>
